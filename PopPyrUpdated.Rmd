@@ -9,8 +9,8 @@ output:
 ```{r part1, echo=FALSE}
 library(tidyverse)
 options(scipen = 9)
-setwd("/Users/alessandracarioli/Google Drive/blog/")
-mydt  <-  read_csv("_DHS-MICS_.csv")%>% filter(iso=='UGA')
+setwd("/mywd/")
+mydt  <-  read_csv("mydataset.csv")%>% filter(iso=='UGA')
 ```
 
 
